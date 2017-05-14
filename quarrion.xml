@@ -8,7 +8,9 @@
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
 
   <!-- Device Tree -->
-  <project path="device/jsr/quarrion" name="InnosD6000/android_device_jsr_quarrion" revision="cm-13.0" />
+  <project path="device/jsr/quarrion" name="InnosD6000/android_device_jsr_quarrion" revision="cm-13.0" />  
+  <!-- QCOM-Common Device Tree -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-13.0" />
   <!-- Kernel Source -->
   <project path="kernel/jsr/quarrion" name="InnosD6000/android_kernel_jsr_quarrion" revision="cm-13.0" />
   <!-- Vendor Blobs -->
