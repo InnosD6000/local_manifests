@@ -17,5 +17,9 @@
   <project path="vendor/jsr" name="InnosD6000/proprietary_vendor_jsr" revision="cm-13.0" />
   <!-- CMUpdater -->
   <project path="packages/apps/CMUpdater" name="InnosD6000/android_packages_apps_CMUpdater" revision="cm-13.0-quarrion" />
+  <!-- Boringssl -->
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-13.0" />
+  <!-- Stlport -->
+  <project path="external/stlport" name="LineageOS/android_external_stlport" revision="cm-13.0" />
 
 </manifest>
