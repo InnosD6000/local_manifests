@@ -4,9 +4,6 @@
   <!--Patcher (run "./patcher/patcher.sh" before each compilation)-->
   <project path="patcher" name="InnosD6000/patcher" revision="cm-13.0" />
 
-  <!-- Remove LineageOS repo-s -->
-  <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
-
   <!-- Device Tree -->
   <project path="device/jsr/quarrion" name="InnosD6000/android_device_jsr_quarrion" revision="cm-13.0" />  
   <!-- QCOM-Common Device Tree -->
@@ -15,8 +12,6 @@
   <project path="kernel/jsr/quarrion" name="InnosD6000/android_kernel_jsr_quarrion" revision="cm-13.0" />
   <!-- Vendor Blobs -->
   <project path="vendor/jsr" name="InnosD6000/proprietary_vendor_jsr" revision="cm-13.0" />
-  <!-- CMUpdater -->
-  <project path="packages/apps/CMUpdater" name="InnosD6000/android_packages_apps_CMUpdater" revision="cm-13.0-quarrion" />
   <!-- Boringssl -->
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-13.0" />
   <!-- Stlport -->
